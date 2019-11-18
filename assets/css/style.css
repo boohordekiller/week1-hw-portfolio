@@ -7,7 +7,6 @@ ul {
   }
   
   li {
-    display: flex;
     float: left;
   }
   
@@ -21,15 +20,16 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #4aaaa5;
   }
-  
+
   .active {
     background-color: white;
   }
 
   body {
-      background-color: gray;
+      background-image: url("../images/herringbone.png");
+      background-color: #ddd;
       margin: 0px;
   }
 
@@ -37,8 +37,9 @@ ul {
       margin-top: 40px;
       margin-right: 130px;
       margin-left: 130px;
+      margin-bottom: 0;
       background-color: white;
-      height: 600px;
+      height: 690px;
       padding: 25px;
       padding-top: 12px;
       border-color: #dddddd;
@@ -54,8 +55,31 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 20%;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 450px;
   }
 
   #home {
       color: black;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666;
+    text-align: left; 
+    margin-left: 0px;
+    height: 20px;
+    border-top: 8px solid #4aaaa5;
+  }
+
+  p {
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      font-size: 18px;
+      color: #777;
+      line-height: 30px;
+      text-indent: 30px;
   }
