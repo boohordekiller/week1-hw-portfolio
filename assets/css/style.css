@@ -83,3 +83,15 @@ ul {
       line-height: 30px;
       text-indent: 30px;
   }
+
+  .img-container {
+    float: ;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
